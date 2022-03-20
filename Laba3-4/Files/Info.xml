@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="Shows.News">
+  <void property="_name">
+   <string>OurNews</string>
+  </void>
+  <void property="_showMinutes">
+   <int>69</int>
+  </void>
+  <void property="_showTime">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>ShowTime.ShowTime</class>
+    <string>Morning</string>
+   </object>
+  </void>
+ </object>
+</java>

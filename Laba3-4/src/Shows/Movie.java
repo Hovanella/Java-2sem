@@ -10,6 +10,7 @@ public class Movie extends Show implements AgeRating{
         super(_name, _timeInProgram, _showTime);
         _ageRating = ageRating;
     }
+    
 
     @Override
     public void writeTheTypeOfShow() {

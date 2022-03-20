@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="News" type="NewsType"/>
+  <xs:complexType name="NewsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="xs:string" name="showMinutes"/>
+      <xs:element type="xs:string" name="ShowTime"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
